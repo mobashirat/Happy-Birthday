@@ -1,0 +1,65 @@
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 50px;
+    
+   
+}
+.heading img{
+    height: 1000px;
+    width: 100%;
+}
+.fonts {
+    top: 50%;
+    position: absolute;
+    justify-content: center;
+    padding-left: 30%;
+    color: whitesmoke;
+    margin-top: 10%;
+   
+}
+.fonts:hover {
+    transform: scale(1.3);
+    transition: transform 3s ease-in-out;
+}
+.jaber-img img {
+    height: 350px;
+    width: 350px;
+   padding-left: 6%;
+   padding-top: 7%;
+   border-radius: 25px;
+}   
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-row-gap: 20px;
+    
+   margin-bottom: 3%;
+   
+    background-color:rgb(211, 170, 94);
+
+}
+.picture {
+   box-shadow: 8px 8px 8px 8px rgba(172, 81, 7, 0.815);
+   height: 500px;
+   width: 400px;
+   margin-bottom: 5%;
+   margin-top: 5%;
+}
+.para{
+    height: 20px;
+}
+.info{
+    padding-left: 5%;
+}
+
+
+.font-size {
+    font-family:cursive;
+    font-size: 50px;
+   margin-top: 50%;
+    font-weight: 700;
+    color: rgb(61, 5, 5);
+  padding-left: 90%;
+}
